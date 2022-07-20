@@ -16,6 +16,7 @@
 		0A6B62232887BDAB004D6D32 /* Trouve_un_BiclooTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6B62222887BDAB004D6D32 /* Trouve_un_BiclooTests.swift */; };
 		0A6B622D2887BDAB004D6D32 /* Trouve_un_BiclooUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6B622C2887BDAB004D6D32 /* Trouve_un_BiclooUITests.swift */; };
 		0A6B622F2887BDAB004D6D32 /* Trouve_un_BiclooUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6B622E2887BDAB004D6D32 /* Trouve_un_BiclooUITestsLaunchTests.swift */; };
+		0A6B62412887C445004D6D32 /* logo beApp.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A6B62402887C445004D6D32 /* logo beApp.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		0A6B62282887BDAB004D6D32 /* Trouve un BiclooUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Trouve un BiclooUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A6B622C2887BDAB004D6D32 /* Trouve_un_BiclooUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trouve_un_BiclooUITests.swift; sourceTree = "<group>"; };
 		0A6B622E2887BDAB004D6D32 /* Trouve_un_BiclooUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trouve_un_BiclooUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0A6B62402887C445004D6D32 /* logo beApp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo beApp.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,12 +101,13 @@
 		0A6B620A2887BDA9004D6D32 /* Trouve un Bicloo */ = {
 			isa = PBXGroup;
 			children = (
-				0A6B620B2887BDA9004D6D32 /* AppDelegate.swift */,
-				0A6B620D2887BDA9004D6D32 /* SceneDelegate.swift */,
-				0A6B620F2887BDA9004D6D32 /* ViewController.swift */,
-				0A6B62112887BDA9004D6D32 /* Main.storyboard */,
+				0A6B623F2887C0A5004D6D32 /* Supporting Files */,
+				0A6B623E2887C08A004D6D32 /* Interface */,
+				0A6B623D2887C078004D6D32 /* Controller */,
+				0A6B623C2887C06B004D6D32 /* View */,
+				0A6B623B2887C055004D6D32 /* Model */,
 				0A6B62142887BDAB004D6D32 /* Assets.xcassets */,
-				0A6B62162887BDAB004D6D32 /* LaunchScreen.storyboard */,
+				0A6B62402887C445004D6D32 /* logo beApp.png */,
 				0A6B62192887BDAB004D6D32 /* Info.plist */,
 			);
 			path = "Trouve un Bicloo";
@@ -125,6 +128,46 @@
 				0A6B622E2887BDAB004D6D32 /* Trouve_un_BiclooUITestsLaunchTests.swift */,
 			);
 			path = "Trouve un BiclooUITests";
+			sourceTree = "<group>";
+		};
+		0A6B623B2887C055004D6D32 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0A6B623C2887C06B004D6D32 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0A6B623D2887C078004D6D32 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0A6B620F2887BDA9004D6D32 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0A6B623E2887C08A004D6D32 /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				0A6B62112887BDA9004D6D32 /* Main.storyboard */,
+				0A6B62162887BDAB004D6D32 /* LaunchScreen.storyboard */,
+			);
+			path = Interface;
+			sourceTree = "<group>";
+		};
+		0A6B623F2887C0A5004D6D32 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A6B620D2887BDA9004D6D32 /* SceneDelegate.swift */,
+				0A6B620B2887BDA9004D6D32 /* AppDelegate.swift */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +276,7 @@
 			files = (
 				0A6B62182887BDAB004D6D32 /* LaunchScreen.storyboard in Resources */,
 				0A6B62152887BDAB004D6D32 /* Assets.xcassets in Resources */,
+				0A6B62412887C445004D6D32 /* logo beApp.png in Resources */,
 				0A6B62132887BDA9004D6D32 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
