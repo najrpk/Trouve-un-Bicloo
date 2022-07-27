@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A39CE4E288D9E7500C165A6 /* ListStationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A39CE4D288D9E7500C165A6 /* ListStationsViewController.swift */; };
 		0A6B620C2887BDA9004D6D32 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6B620B2887BDA9004D6D32 /* AppDelegate.swift */; };
 		0A6B620E2887BDA9004D6D32 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6B620D2887BDA9004D6D32 /* SceneDelegate.swift */; };
 		0A6B62102887BDA9004D6D32 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6B620F2887BDA9004D6D32 /* ViewController.swift */; };
@@ -17,6 +18,9 @@
 		0A6B622D2887BDAB004D6D32 /* Trouve_un_BiclooUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6B622C2887BDAB004D6D32 /* Trouve_un_BiclooUITests.swift */; };
 		0A6B622F2887BDAB004D6D32 /* Trouve_un_BiclooUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6B622E2887BDAB004D6D32 /* Trouve_un_BiclooUITestsLaunchTests.swift */; };
 		0A6B62412887C445004D6D32 /* logo beApp.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A6B62402887C445004D6D32 /* logo beApp.png */; };
+		0A6B62432887CA19004D6D32 /* BicloopService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6B62422887CA19004D6D32 /* BicloopService.swift */; };
+		0A6B62452887F6EF004D6D32 /* Station.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6B62442887F6EF004D6D32 /* Station.swift */; };
+		0A6B624928892221004D6D32 /* MapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6B624828892221004D6D32 /* MapController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A39CE4D288D9E7500C165A6 /* ListStationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListStationsViewController.swift; sourceTree = "<group>"; };
 		0A6B62082887BDA9004D6D32 /* Trouve un Bicloo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Trouve un Bicloo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A6B620B2887BDA9004D6D32 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0A6B620D2887BDA9004D6D32 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +56,9 @@
 		0A6B622C2887BDAB004D6D32 /* Trouve_un_BiclooUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trouve_un_BiclooUITests.swift; sourceTree = "<group>"; };
 		0A6B622E2887BDAB004D6D32 /* Trouve_un_BiclooUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trouve_un_BiclooUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		0A6B62402887C445004D6D32 /* logo beApp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo beApp.png"; sourceTree = "<group>"; };
+		0A6B62422887CA19004D6D32 /* BicloopService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BicloopService.swift; sourceTree = "<group>"; };
+		0A6B62442887F6EF004D6D32 /* Station.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Station.swift; sourceTree = "<group>"; };
+		0A6B624828892221004D6D32 /* MapController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +141,8 @@
 		0A6B623B2887C055004D6D32 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				0A6B62422887CA19004D6D32 /* BicloopService.swift */,
+				0A6B62442887F6EF004D6D32 /* Station.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -148,6 +158,8 @@
 			isa = PBXGroup;
 			children = (
 				0A6B620F2887BDA9004D6D32 /* ViewController.swift */,
+				0A6B624828892221004D6D32 /* MapController.swift */,
+				0A39CE4D288D9E7500C165A6 /* ListStationsViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -303,8 +315,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A6B62102887BDA9004D6D32 /* ViewController.swift in Sources */,
+				0A6B62452887F6EF004D6D32 /* Station.swift in Sources */,
 				0A6B620C2887BDA9004D6D32 /* AppDelegate.swift in Sources */,
 				0A6B620E2887BDA9004D6D32 /* SceneDelegate.swift in Sources */,
+				0A6B624928892221004D6D32 /* MapController.swift in Sources */,
+				0A39CE4E288D9E7500C165A6 /* ListStationsViewController.swift in Sources */,
+				0A6B62432887CA19004D6D32 /* BicloopService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

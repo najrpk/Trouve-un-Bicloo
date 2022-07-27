@@ -21,5 +21,11 @@
 			</array>
 		</dict>
 	</dict>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Demander à l&apos;utilisateur l&apos;utilisation de sa position</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Toujours demander</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Demander quand l&apos;app  est en fonction</string>
 </dict>
 </plist>

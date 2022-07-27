@@ -16,13 +16,20 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="logo beApp" translatesAutoresizingMaskIntoConstraints="NO" id="hWa-46-PxG">
-                                <rect key="frame" x="-3" y="-3" width="428" height="899"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="logo beApp" translatesAutoresizingMaskIntoConstraints="NO" id="hWa-46-PxG">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <color key="backgroundColor" red="0.081980411833317071" green="0.16567085186640418" blue="0.1059497742115057" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" systemColor="systemGreenColor"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="hWa-46-PxG" secondAttribute="trailing" id="BDZ-vz-7rh"/>
+                            <constraint firstItem="hWa-46-PxG" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="GDD-EY-dfx"/>
+                            <constraint firstItem="hWa-46-PxG" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="kCP-FN-ZrG"/>
+                            <constraint firstAttribute="bottom" secondItem="hWa-46-PxG" secondAttribute="bottom" id="zs2-kG-eg5"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -34,6 +41,9 @@
         <image name="logo beApp" width="225" height="225"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
